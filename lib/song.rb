@@ -22,5 +22,12 @@ class Song
     song
   end
 
+  def self.create_by_name(name)
+    variable = new_by_name(name)
+    variable.save
+    variable
+  end
+
+
 
 end
