@@ -62,7 +62,7 @@ class Song
     variable_song = Song.new
     variable_song.name = song_name
     artist_name = new_file_name[0]
-    varaiable_song.artist_name = artist_name
+    variable_song.artist_name = artist_name
     variable_song.save
   end
 
